@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div#rectangle {
+    display: block; 
+    position: fixed;
+    height: 100%; 
+    width: 100%; 
+    background-color: aquamarine;
+    perspective: 800px;
+}
+div#recOpj {
+    position: absolute;
+    border-radius: 10px;
+    top: 25%;
+    left: 25%;
+    height: 50%;
+    width: 50%;
+    background-image: url('me.jpg');
+    background-size: 100%;
+    background-position: center;
+
+}
